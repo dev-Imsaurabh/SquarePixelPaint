@@ -56,7 +56,7 @@ But almost this is the simplest app  a new developer can learn from it.<br>
 
 
 ## Technology Used
-* Framework - Android Studio
+* Platform - Android Studio
 * Language - Java
 
 ## Working
