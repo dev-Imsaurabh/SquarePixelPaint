@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_back"
+
+    android:orientation="vertical"
+
+    tools:context=".eands.MainActivity">
+
+
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/frame"
+
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+
+        <com.mac.squarepixelpaint.eands.ZoomLinearLayout
+
+            android:id="@+id/zoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <GridView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="#C6E1B6E8"
+                android:verticalSpacing="0dp"
+                android:id="@+id/dummy_grid"
+                android:numColumns="8"/>
+
+
+            <GridView
+                android:id="@+id/datagrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:numColumns="8"
+                android:verticalSpacing="0dp" />
+
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@color/white">
+
+            </View>
+
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/view2"
+                android:layout_centerInParent="true"
+                android:background="@color/white"
+                android:layout_height="1dp">
+
+            </View>
+
+        </RelativeLayout>
+        </com.mac.squarepixelpaint.eands.ZoomLinearLayout>
+
+
+
+
+    </FrameLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/choose_color"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/erase_btn"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/button_border"
+        android:padding="8dp"
+        android:text="choose color"
+        android:textColor="@color/white"
+        android:textSize="8dp">
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:textSize="8dp"
+        android:text="Hide grid"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/button_border"
+
+        android:id="@+id/remove_grid">
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:padding="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/choose_color"
+        android:layout_marginStart="8dp"
+        android:text="Save"
+        android:textSize="8dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/button_border"
+        android:id="@+id/saveImage">
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:padding="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/remove_grid"
+        android:textSize="8dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/button_border"
+        android:text="Eraser ON"
+        android:id="@+id/erase_btn">
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="8dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/border_white"
+        android:id="@+id/iv"
+        android:layout_alignParentRight="true">
+
+    </ImageView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+
+        android:id="@+id/rec_color"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recently Used Colors"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/white"
+        android:layout_above="@id/rec_color"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preview"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toStartOf="@id/iv"/>
+
+
+
+
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eands.SelectPaletteActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Board"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:background="@drawable/border_white"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="8 x 8"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/board_8"
+            android:background="@drawable/button_border"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="16 x 16"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/board_16"
+            android:background="@drawable/button_border"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="24 x 24"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/board_24"
+            android:background="@drawable/button_border"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="32 x 32"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/board_32"
+            android:background="@drawable/button_border"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="64 x 64"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:id="@+id/board_64"
+            android:background="@drawable/button_border"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_margin="8dp"
+            android:text="96 x 96"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/board_96"
+            android:background="@drawable/button_border"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="160 x 160"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/board_160"
+            android:background="@drawable/button_border"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:visibility="gone"
+            android:text="192 x 192"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/board_192"
+            android:background="@drawable/button_border"/>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

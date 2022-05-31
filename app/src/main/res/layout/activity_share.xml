@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_back"
+    tools:context=".ShareActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:textSize="22sp"
+        android:text="Thank You For Using Square Pixel Paint.\nPlease Provide Feedback by Rating Our App on PlayStore :)">
+
+    </TextView>
+
+    <ImageView
+        android:background="@drawable/border_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"
+        android:id="@+id/share_iv">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/share_iv"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:id="@+id/share_btn"
+            android:textColor="@color/white"
+            android:background="@drawable/button_border"
+            android:layout_below="@id/share_iv"
+            android:layout_marginTop="16dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate us"
+            android:id="@+id/rate_us_btn"
+            android:textColor="@color/white"
+            android:background="@drawable/button_border"
+            android:layout_below="@id/share_iv"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/share_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
