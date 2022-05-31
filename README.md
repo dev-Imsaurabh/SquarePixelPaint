@@ -1,7 +1,7 @@
 <p>
     <h1 align="center">
         <a href="https://play.google.com/store/apps/details?id=com.mac.squarepixelpaint">
-            Ek Chitthi: Letter Posting App (JAVA) by Saurabh Kumar<br>PlayStore handle :- imSoloDeveloper
+            8bit Square Pixel Paint (JAVA) by Saurabh Kumar<br>PlayStore handle :- imSoloDeveloper
         </a>
     </h1>
 </p>
