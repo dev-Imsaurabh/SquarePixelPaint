@@ -12,7 +12,6 @@
         <img src="https://travis-ci.org/steverichey/google-play-badge-svg.svg?branch=master" alt="Build status">
     </a>
     <a href="https://github.com/dev-iamsaurabh/SquarePixelPaint/blob/master/LICENSE">
-https://github.com/dev-iamsaurabh/SquarePixelPaint/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="License: MIT">
     </a>
 </p>
