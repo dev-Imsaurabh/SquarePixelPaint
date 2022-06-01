@@ -1,6 +1,9 @@
+<p align="center">
+        <img src="https://play-lh.googleusercontent.com/T7wqtBAv4JHR_TPHMoGtXFRU8QhDibd-iYhcSk4Tnib0Lh2Sr7iZKdjhyWmDXBofrNg=w240-h480-rw", width="20%">
+
+</p>
 <p>
     <h1 align="center">
-        <img src="https://play-lh.googleusercontent.com/T7wqtBAv4JHR_TPHMoGtXFRU8QhDibd-iYhcSk4Tnib0Lh2Sr7iZKdjhyWmDXBofrNg=w240-h480-rw", width="2%">
         <a href="https://play.google.com/store/apps/details?id=com.mac.squarepixelpaint">
             8bit Square Pixel Paint (JAVA) by Saurabh Kumar<br>PlayStore handle :- imSoloDeveloper
         </a>
